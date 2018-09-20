@@ -151,10 +151,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="code\Background.h" />
+    <ClInclude Include="code\Bee.h" />
+    <ClInclude Include="code\BgLayer.h" />
+    <ClInclude Include="code\GameObject.h" />
     <ClInclude Include="code\stdafx.h" />
     <ClInclude Include="code\targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="code\Background.cpp" />
+    <ClCompile Include="code\Bee.cpp" />
+    <ClCompile Include="code\BgLayer.cpp" />
+    <ClCompile Include="code\GameObject.cpp" />
     <ClCompile Include="code\Main.cpp" />
     <ClCompile Include="code\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

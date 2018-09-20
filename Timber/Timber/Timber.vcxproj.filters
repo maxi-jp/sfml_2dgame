@@ -21,12 +21,36 @@
     <ClInclude Include="code\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="code\Background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Bee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\BgLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="code\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Bee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\BgLayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
